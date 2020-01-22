@@ -1,0 +1,37 @@
+
+         [  
+            {
+                "username":"Vishwas",
+                "mobile":"1234568900",
+                "email":"vishwas@gmail.com",
+                "password":"vishwas123"
+             },
+            {
+                 "username":"Ranjit",
+                 "mobile":"1234561200",
+                 "email":"ranjit@gmail.com",
+                 "password":"ranjit123"
+             },
+ 
+             {
+                 "username":"Manoj",
+                 "mobile":"1234563400",
+                 "email":"manoj@gmail.com",
+                  "password":"manoj123"
+             },
+             {
+                 "username":"Bahart",
+                 "mobile":"1234565600",
+                 "email":"bharat@gmail.com",
+                 "password":"bharat123"
+             },
+ 
+             {
+                 "username":"Pramod",
+                 "mobile":"1234569400",
+                 "email":"pramod@gmail.com",
+                 "password":"pramod123"
+             }
+       ]
+         
+         
