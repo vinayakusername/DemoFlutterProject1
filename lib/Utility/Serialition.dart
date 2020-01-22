@@ -6,14 +6,17 @@ import 'dart:convert';
 class Serialition
 {
 
-Future<String> loadUserInfo() async {
+Future<UsersList> loadUserInfo() async {
   //return await rootBundle.loadString('JSONFiles/users.json');
 
    String jsonUsers = await rootBundle.loadString('JSONFiles/users.json');
    final jsonResponse = jsonDecode(jsonUsers);
-   UsersList usersList = UsersList.fromJson(jsonResponse);
-  //print("photos " + photosList.photos[0].title);
-   print(usersList);
+   UsersList usersList1 = UsersList.fromJson(jsonResponse);
+  //  print(usersList1.usersList.length);
+  //  print("email:" + usersList1.usersList[0].email+"\n"+"username:" + usersList1.usersList[0].username);
+
+  return usersList1;
+   
 }
 
 }

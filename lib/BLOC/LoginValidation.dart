@@ -5,5 +5,11 @@ import 'package:demoflutterproject1/Utility/Serialition.dart';
 
 class LoginValidation{
 
-void userValidation(){}
+UsersList usersInfoList;
+Future<void> userEmailValidation()
+async {
+      usersInfoList = await new Serialition().loadUserInfo();
+      
+      print("email:" +usersInfoList.usersList[0].email);
+}
 }
