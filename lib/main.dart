@@ -6,7 +6,9 @@ import 'package:flutter/material.dart';
 void main(){ 
   runApp(MyApp());
  // new Serialition().loadUserInfo();
- new LoginValidation().userEmailValidation();
+ //new LoginValidation().userEmailValidation();
+  //new LoginValidation().userPhoneValidation();
+  new LoginValidation().emptyInputValidation();
 }
 
 class MyApp extends StatelessWidget {
