@@ -6,7 +6,7 @@ import 'package:demoflutterproject1/Utility/Serialition.dart';
 
 class LoginValidation{
 
-    UsersList usersInfoList;//instance variable of type model class(UsersList).
+    UsersList usersInfoList;//instance variable of type model class(UsersList),to hold object of model class.
 
      set getObjList(UsersList infoList){
           usersInfoList = infoList;
