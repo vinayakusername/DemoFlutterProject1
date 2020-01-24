@@ -7,7 +7,7 @@ import 'dart:convert';
 class Serialition
 {
  
-Future<UsersList> loadUserInfo() async {
+Future<String> loadUserInfo() async {
   
    //It load's the user data from JSON file.
    String jsonUsers = await rootBundle.loadString('JSONFiles/users.json');
