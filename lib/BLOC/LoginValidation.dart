@@ -8,6 +8,7 @@ class LoginValidation{
 
     UsersList usersInfoList;//instance variable of type model class(UsersList),to hold object of model class.
 
+     //custom Setter Method.
      set getObjList(UsersList infoList){
           usersInfoList = infoList;
     }
