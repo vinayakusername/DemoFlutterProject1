@@ -1,14 +1,17 @@
 
+import 'dart:io';
+
 import 'package:demoflutterproject1/BLOC/LoginValidation.dart';
 import 'package:demoflutterproject1/Utility/Serialition.dart';
 import 'package:flutter/material.dart';
 
 void main(){ 
   runApp(MyApp());
+
  // new Serialition().loadUserInfo();
- //new LoginValidation().userEmailValidation();
+    new LoginValidation().userEmailValidation();
   //new LoginValidation().userPhoneValidation();
-  new LoginValidation().emptyInputValidation();
+  //new LoginValidation().emptyInputValidation();
 }
 
 class MyApp extends StatelessWidget {

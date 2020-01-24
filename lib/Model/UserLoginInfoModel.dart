@@ -1,5 +1,4 @@
 class UserLoginInfo {
- // final String username;
   final String email;
   final String mobile;
   final String username;
