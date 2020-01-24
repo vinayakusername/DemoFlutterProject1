@@ -19,7 +19,7 @@ Future<String> loadUserInfo() async {
     
  // It returns the object of UsersList.
     //return usersList1;
-  LoginValidation().getObjList = usersList1;//calling custom setter method of BLOC to set value(object of model class).
+  LoginValidation().getObjModel = usersList1;//calling custom setter method of BLOC to set value(object of model class).
 }
 
 }

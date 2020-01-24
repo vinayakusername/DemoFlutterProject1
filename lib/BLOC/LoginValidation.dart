@@ -9,11 +9,11 @@ class LoginValidation{
     UsersList usersInfoList;//instance variable of type model class(UsersList),to hold object of model class.
 
      //custom Setter Method.
-     set getObjList(UsersList infoList){
+     set getObjModel(UsersList infoList){
           usersInfoList = infoList;
     }
     
-    UsersList get getObjList// Instance variable with custom Getter.
+    UsersList get getObjModel// Instance variable with custom Getter.
     {
       return usersInfoList;
     }
@@ -28,7 +28,7 @@ class LoginValidation{
     // UsersList usersInfoList = await new Serialition().loadUserInfo();
 
       //It returns the Size of the List which is available in model class.
-      int sizeOFList = LoginValidation().getObjList.usersList.length;
+      int sizeOFList = LoginValidation().getObjModel.usersList.length;
       for(int i=0;i<sizeOFList;i++) // It is used to iterate the record of user in List.
       {
       String userEmail = usersInfoList.usersList[i].email;
